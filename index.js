@@ -1,0 +1,6 @@
+const os = require('node:os')
+console.log('OS:', os.platform())
+console.log('OS Release:', os.release())
+console.log('OS Username: ', os.hostname())
+console.log('OS Architectirue', os.arch())
+console.log('OS CPUs:', os.cpus())
